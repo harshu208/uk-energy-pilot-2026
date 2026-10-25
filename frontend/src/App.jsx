@@ -5,7 +5,7 @@ import {
 } from 'recharts';
 import { Activity, ShieldAlert, TrendingUp, Calendar, Zap, CheckCircle2, ArrowUpRight } from 'lucide-react';
 
-const API_BASE_URL = "/api";
+const API_BASE_URL = "https://uk-energy-backend-albn.onrender.com/api";
 
 export default function App() {
   const [selectedDate, setSelectedDate] = useState("2026-01-01");
